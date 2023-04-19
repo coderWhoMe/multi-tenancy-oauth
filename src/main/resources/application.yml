@@ -4,7 +4,6 @@ spring:
       resourceserver:
         jwt:
           jwk-set-uri: ${mockwebserver.url}/.well-known/jwks.json
-          jws-algorithms: RS512
         opaquetoken:
           introspection-uri: ${mockwebserver.url}/introspect
           client-id: client

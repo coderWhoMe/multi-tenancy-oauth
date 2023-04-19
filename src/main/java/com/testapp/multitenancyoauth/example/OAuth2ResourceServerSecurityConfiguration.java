@@ -53,7 +53,8 @@ public class OAuth2ResourceServerSecurityConfiguration {
 			)
 			.oauth2ResourceServer((oauth2) -> oauth2
 				.authenticationManagerResolver(authenticationManagerResolver)
-			);
+			)
+			.anonymous().disable();
 		// @formatter:on
 
 		return http.build();

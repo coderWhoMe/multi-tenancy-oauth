@@ -19,4 +19,4 @@
  * {@link org.springframework.core.env.Environment}.
  * @author Rob Winch
  */
-package com.testapp.multitenancyoauth.org.springframework.boot.env;
+package com.testapp.multitenancyoauth.env;

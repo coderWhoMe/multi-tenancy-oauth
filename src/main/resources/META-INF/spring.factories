@@ -1,1 +1,1 @@
-org.springframework.boot.env.EnvironmentPostProcessor=org.springframework.boot.env.MockWebServerEnvironmentPostProcessor
+org.springframework.boot.env.EnvironmentPostProcessor=com.testapp.multitenancyoauth.env.MockWebServerEnvironmentPostProcessor

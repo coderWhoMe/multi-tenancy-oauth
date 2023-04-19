@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.testapp.multitenancyoauth.org.springframework.boot.env;
+package com.testapp.multitenancyoauth.env;
 
 import java.io.IOException;
 import java.util.Base64;

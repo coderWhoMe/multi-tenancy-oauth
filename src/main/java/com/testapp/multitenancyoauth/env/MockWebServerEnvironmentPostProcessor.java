@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.testapp.multitenancyoauth.org.springframework.boot.env;
+package com.testapp.multitenancyoauth.env;
 
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.boot.SpringApplication;
